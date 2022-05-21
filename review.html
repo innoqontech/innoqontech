@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Koulen&family=Padauk&family=Rubik+Microbe&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<style>
+   *{
+       margin: 0;
+       padding:0;
+       font-family: 'Times New Roman', Times, serif;
+
+   }
+
+   .review{
+       margin: 50px auto;
+   }
+   .review h1{
+       text-align: center;
+       font-weight: bold;
+       font-size: 30px;
+       color:#2A93D5;
+       padding-bottom: 10px;
+       text-transform: uppercase;
+   }
+   a{
+       text-decoration: none;
+   }
+   #reviews{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+   }
+   .reviews-heading{
+       letter-spacing: 1px;
+       margin: 30px 0px;
+       padding: 10px 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+   }
+   .reviews-heading h1{
+       font-size: 2.2rem;
+       font-weight: 500;
+       background-color: #1CA7EC;
+       color: #ffffff;
+       padding: 10px;
+   }
+   .reviews-heading span{
+       font-size: 1.3rem;
+       color: #365775;
+       margin-bottom: 10px;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+   }
+   .reviews-box-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       width: 100%;
+   }
+   .reviews-box{
+       width: 500px;
+       box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+       background-color: #ffffff;
+       padding: 20px;
+       margin: 15px;
+       cursor: pointer;
+   }
+   .profile-img{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       overflow: hidden;
+       margin-right: 10px;
+   }
+   .profile-img img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       object-position: center;
+   }
+   .profile{
+       display: flex;
+       align-items: center;
+   }
+   
+   .logo{
+       width: 30px;
+       height: 30px;
+       border-radius: 80%;
+       overflow: hidden;
+       margin-right: 10px;
+       position: relative;
+       left:90%;
+       bottom: 50px;
+   }
+   .logo img{
+    width: 100%;
+       height: 100%;
+       object-fit: cover;
+       object-position: center;
+   }
+   .user-name{
+    display: flex;
+    flex-direction: column;
+}
+.user-name strong{
+    color: #1CA7EC;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.user-name span{
+    color: rgb(93, 92, 92);
+    font-size:0.8rem;
+}
+.reviews{
+    color:#f9d71c ;
+}
+/* .box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+} */
+.client-comments p{
+    font-size: 0.9rem;
+    color:#4b4b4b;
+}
+.reviews-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+</style>
+<body>
+   <section id="reviews">
+       <div class="reviews-heading">
+           <span>Comments</span>
+           <h1>Clients Says</h1>
+       </div>
+
+       <div class="reviews-box-container">
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Totally agree, Supersourcing we have seen surge in 100X demand,
+        </div>
+          </div>
+           <!-- BOX 2 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Earlier we were taking projects from upwork, they were charging high. Through LinkedIn we got Magento, HTMl work but profitability was an issue, hiring people was pain. I spoke to Bluerang team, shared my past work, they helped me to get 3 WordPress projects. Now I could put that projects in my portfolio, I don't have to pay any commission.<br>
+            Jun 15, 2019
+        </div>
+          </div>
+           <!-- BOX 3 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            It is amazing to use. Inuitive and easy to use when it comes to finding the right clients without any hassles. I highly recommend you to use this platform as a freelancer.
+
+            Dec 4, 2019
+        </div>
+          </div>
+           <!-- BOX 4 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Now We don't have to Interview through hundreds of the freelancers to get work done, finding tech partners who have build product in hiring domain. We got a perfect partner, this is awesome platform, thanks for making it
+
+            Jun 15, 2019
+        </div>
+          </div>
+           <!-- BOX 5 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            I would say the way their team communicated and create a balance in between IT Agency & Client was amazing. I created my agency profile, and it submitted for approval after approval I got multiple request of projects. The team is very helpful and help us in the conversion of client. I must say Supersourcing is very easy to use as compare to other freelancing portals.
+        </div>
+          </div>
+           <!-- BOX 6 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            I would say communication is the best part and the way help me to guide the supersourcing platform to find the right agency. Personally, I would like to thanks Twinkle from the team who is regularly in touch with me and helping me if any communication is not concluded with the agency. The sorting feature is superb
+
+            Jan 15, 2021
+        </div>
+          </div>
+           <!-- BOX 7 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            It saves a lot of time and the process to shortlist the agency is super easy:)
+
+            Jan 15, 2021
+        </div>
+          </div>
+           <!-- BOX 8 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            1. The best thing about supersourcing is that agencies don't have to find suitable projects and bid for different projects. The concept of domain expertise is really good. It increases an agency's chances to get more work in your domain which you are an expert.<br>
+            2. It's very easy to create a profile. It just takes a few minutes to create an agency profile and good to go.<br>
+            3. Support from supersourcing team is awesome. Both Aarambhi and Twinkle stay in touch and support all the time.<br>
+            4. I really like the dashboard UI and UX. The left menu is organized in a very nice manner which is easy to access.<br>
+5. I like the proper agency verification process too.<br>
+
+Jan 19, 2021
+        </div>
+          </div>
+           <!-- BOX 9 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Customer support is very well. Th UI is easy to traverse.
+
+            Jan 22, 2021
+        </div>
+          </div>
+           <!-- BOX 10 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            The team there is great and they really believe in your success no matter what the response time is super awesome so if you need the most amazing work at the fastest pace this is the place to go without a single shred of doubt.
+
+            Jan 28, 2021
+        </div>
+          </div>
+           <!-- BOX 11 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            The platform is very much suitable for non tech founders like me where I can get trusted agencies in no time.
+
+            Jan 28, 2021
+        </div>
+          </div>
+           <!-- BOX 12 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            The platform is super easy to use. The agencies are really quick in reverting with the proposals.
+
+            Jan 28, 2021
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+           <!-- BOX 1 -->
+           <div class="reviews-box">
+               <!-- top -->
+           <div class="box-top">
+            <!-- profile -->
+            <div class="profile">
+               <div class="profile-img">
+                <img src="images/user1.jpg" alt="">
+               </div>
+               <div class="user-name">
+                   <strong>Angelena John</strong>
+                   <span>@angelena john</span>
+               </div>
+            </div> 
+            <div class="logo">
+                <img src="images/tw.png" alt="">
+            </div>
+
+               <div class="reviews">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+               </div>
+           </div>
+           <div class="client-comments">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor minima tenetur quae, neque quam quas ipsum excepturi possimus magni doloremque. Vel voluptas deleniti veniam sint odit accusantium, ipsa maiores? Cupiditate!
+        </div>
+          </div>
+         
+       </div>
+   </section>
+    
+</body>
+</html>
