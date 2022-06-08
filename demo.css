@@ -1,0 +1,30 @@
+/* Gfonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Poppins:wght@700&display=swap');
+
+.custom-btn-color{
+    background: #5D3FD3;
+}
+
+.custom-font{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-text-color{
+    color: #5D3FD3;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(101, 49, 115, 0.25)!important;
+    border: none !important;
+}  
+
+
+.h-custom {
+height: 100vh;
+
+}
+
+.display-2{
+    line-height: 0.80 !important;
+}
